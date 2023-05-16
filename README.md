@@ -3,7 +3,7 @@
 + Open the run application by pressing **Windows Key + R**
 + Type ```optionalfeatures``` and press enter
 + Enable the **Windows-Sandbox** feature
-+ Reboot your machine
++ **Reboot** your machine
 
 # Configuration
 The purpose of the example configuration sandbox.wsb is to open suspicious files in a safe environment. Therefore the sandbox has no internet connectivity and mounts the folder under C:\sandbox from the Host-System in Read-Only mode. Obviously you have to create this folder before you start the sandbox.
